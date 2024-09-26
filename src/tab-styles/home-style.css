@@ -1,0 +1,21 @@
+.home-content {
+    background-color: rgb(230, 110, 110);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+    border: 0px;
+}
+
+.description, .timings, .location {
+    font-size: max(2vw, 1.5rem);
+    padding: 1rem;
+    background-color: rgb(187, 255, 187);
+    border-radius: 3rem 0.5rem;
+    margin: 1rem;
+}
+
+.description, .timings-heading, .location-heading {
+    font-family: cursive;
+}
+
