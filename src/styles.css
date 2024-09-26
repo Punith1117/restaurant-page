@@ -33,13 +33,15 @@ header {
 .tab[data-on-this-tab = "true"] {
     color: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px black;
+    scale: 1.1;
+    transition: all 0.5s;
 }
 
 #content {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 99vw;
     background-color: rgb(222, 230, 247);
 }
 
