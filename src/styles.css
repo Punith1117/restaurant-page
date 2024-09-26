@@ -50,3 +50,12 @@ header {
     border-radius: 2rem;
     overflow: hidden;
 }
+
+.author {
+    color: white;
+    
+    a {
+        color: rgb(60, 255, 125);
+        text-underline-offset: 3px;
+    }
+}
