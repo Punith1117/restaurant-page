@@ -1,0 +1,50 @@
+header {
+    background-color: rgb(106, 106, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bakery-name {
+    color: white;
+    font-size: max(6vw, 3rem);
+}
+
+.tabs {
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+}
+
+.tab {
+    color: rgb(255, 108, 108);
+    font-size: 1.5rem;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(35, 35, 114);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.tab[data-on-this-tab = "true"] {
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px black;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(222, 230, 247);
+}
+
+.home-content, .menu-content, .contact-content {
+    border: 2px solid black;
+    border-radius: 2rem;
+    overflow: hidden;
+}
