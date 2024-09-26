@@ -20,4 +20,5 @@ p:first-child {
     border-radius: 5px;
     color: white;
     padding: 10px;
+    text-indent: 10%;
 }
