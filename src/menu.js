@@ -45,7 +45,7 @@ categories.forEach((category) => {
     category_card.classList.add('category-card');
     category.forEach((item) => {
         let item_name = document.createElement('p');
-        item_name.textContent = item;
+        item_name.textContent = `# ${item}`;
         category_card.appendChild(item_name);
     })
     console.log(category_card);
