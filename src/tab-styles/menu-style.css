@@ -1,0 +1,23 @@
+.menu-content {
+    height: fit-content;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    background-color: rgb(113, 216, 113);
+    margin: 2rem;
+}
+
+.category-card {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+p:first-child {
+    background-color: rgb(100, 100, 175);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
