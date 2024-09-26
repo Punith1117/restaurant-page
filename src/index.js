@@ -1,5 +1,9 @@
 import "./reset.css";
 import "./styles.css";
+import "./tab-styles/home-style.css"
+import "./tab-styles/menu-style.css"
+import "./tab-styles/contact-style.css"
+
 import { homeContent } from "./home";
 import { menu } from "./menu";
 import { contact } from "./contact";
