@@ -19,7 +19,7 @@ header {
 .tab {
     color: rgb(255, 108, 108);
     font-size: 1.5rem;
-    background-color: transparent;
+    background-color: rgb(111, 27, 150);
     outline: none;
     border: 2px solid rgb(35, 35, 114);
     border-radius: 1rem;
