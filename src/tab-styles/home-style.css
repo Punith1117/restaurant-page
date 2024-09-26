@@ -7,15 +7,25 @@
     border: 0px;
 }
 
-.description, .timings, .location {
+.timings, .location {
     font-size: max(2vw, 1.5rem);
     padding: 1rem;
     background-color: rgb(187, 255, 187);
-    border-radius: 3rem 0.5rem;
     margin: 1rem;
+    border-radius: 0.5rem 3rem;
 }
 
 .description, .timings-heading, .location-heading {
     font-family: cursive;
+}
+
+.description {
+    background-color: beige;
+    font-size: max(2.5vw, 2rem);
+    margin: 1rem;
+    border-radius: 6rem 0.5rem;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
